@@ -10,8 +10,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL:()
-- Live Site URL: ()
+- Solution URL:(https://github.com/mdaquib171/card-feature-section)
+- Live Site URL: (https://mdaquib171.github.io/card-feature-section/)
 
 ## My process
 
