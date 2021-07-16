@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* primary color */
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    /* neutral */
+    --Very-Dark--Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+
+    /* font-family */
+    --font: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 15px;
+    font-family: var(--font);
+    background-color: var(--Very-Light-Gray);
+}
+
+.container {
+    margin: 5rem 2rem;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading>h1{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--Grayish-Blue);
+    margin-bottom: 1rem;
+}
+.heading>h1>span{
+    font-weight: 600;
+    color: var(--Very-Dark--Blue);
+}
+.heading>p{
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+}
+
+.cards {
+    padding: 1rem 1.5rem 5rem 1rem;
+    border-top:5px solid ;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 15px 30px -11px rgb(131 166 210 / 50%)
+}
+
+.card-1 {
+    border-color: var(--Cyan);
+}
+.card-2 {
+    border-color: var(--Red);
+}
+.card-3 {
+    border-color: var(--Orange);
+}
+.card-4 {
+    border-color: var(--Blue);
+}
+
+.cards>h2{
+    color: var(--Very-Dark--Blue);
+    font-weight: 600;
+}
+.cards>p{
+    color: var(--Grayish-Blue);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.icon>img {
+    float: right;
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 4rem 9rem;
+    }
+
+    .heading>h1{
+        font-size: 2rem;
+    }
+    .heading>p{
+        padding: 0 17rem;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+        align-items: center;
+    }
+
+    .center{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+    }
+
+    .cards {
+    padding-bottom:1.5rem;
+    }
+}
