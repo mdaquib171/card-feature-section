@@ -85,25 +85,23 @@ body {
     float: right;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     .container {
-        margin: 4rem 9rem;
+        padding: 0 100px;
     }
-
     .heading>h1{
         font-size: 2rem;
     }
-    .heading>p{
-        padding: 0 17rem;
-    }
 
+    /* .card-1, .card-2, .card-3, .card-4 {
+        width: 270px;
+    } */
     .card-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
         align-items: center;
     }
-
     .center{
         display: grid;
         grid-template-columns: repeat(1 1fr);
